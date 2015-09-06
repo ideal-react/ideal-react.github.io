@@ -20,7 +20,7 @@
   "homepage": "https://github.com/ideal-react/ideal-react.github.io#readme",
   "dependencies": {
     "react": "^0.13.3",
-    "speech-bubble": "^1.0.4"
+    "speech-bubble": "^1.0.5"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.1",
