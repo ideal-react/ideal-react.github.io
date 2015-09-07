@@ -4,9 +4,9 @@
   "description": "ideal react component demos",
   "main": "index.js",
   "scripts": {
-    "build": "webpack src/index.jsx dist/index.min.js --config webpack.config.js",
     "clean": "rimraf dist",
-    "lint": "eslint src --ext .js,.jsx"
+    "lint": "eslint src --ext .js,.jsx",
+    "build": "npm run clean && npm run lint && webpack src/index.jsx dist/index.min.js --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -20,14 +20,16 @@
   "homepage": "https://github.com/ideal-react/ideal-react.github.io#readme",
   "dependencies": {
     "react": "^0.13.3",
-    "speech-bubble": "^1.0.6"
+    "speech-bubble": "git+https://git@github.com/ideal-react/speech-bubble"
   },
   "devDependencies": {
+    "autoprefixer": "^6.0.1",
     "babel-eslint": "^4.1.1",
     "babel-loader": "^5.3.2",
     "css-loader": "^0.17.0",
     "eslint": "^1.3.1",
     "eslint-plugin-react": "^3.3.1",
+    "postcss-loader": "^0.6.0",
     "rimraf": "^2.4.3",
     "style-loader": "^0.12.3",
     "webpack": "^1.12.1"

@@ -7,7 +7,7 @@ const props = {
 	title: 'ideal',
 	content: 'ideal is a organizations of perfect react component',
 	link: 'https://github.com/ideal-react',
-	styles
+	styles,
 }
 
 React.render(<SpeechBubble {...props} />,

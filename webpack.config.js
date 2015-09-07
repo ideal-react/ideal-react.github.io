@@ -1,6 +1,7 @@
 'use strict'
 
 var webpack = require('webpack')
+var autoprefixer = require('autoprefixer')
 
 module.exports = {
 	module: {
@@ -10,12 +11,13 @@ module.exports = {
 			exclude: /node_modules/,
 		}, {
 			test: /\.css$/,
-			loader: 'style!css?modules&localIdentName=[hash:base64:5]',
+			loader: 'style!css?modules&localIdentName=[hash:base64:5]!postcss',
 		}]
 	},
 	resolve: {
 		extensions: ['', '.js', '.jsx'],
 	},
+	postcss: [autoprefixer],
 	plugins: [
 		new webpack.optimize.OccurenceOrderPlugin(),
 		new webpack.DefinePlugin({
