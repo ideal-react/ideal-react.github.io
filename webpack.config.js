@@ -10,7 +10,7 @@ module.exports = {
 			exclude: /node_modules/,
 		}, {
 			test: /\.css$/,
-			loader: 'style!css?modules',
+			loader: 'style!css?modules&localIdentName=[hash:base64:5]',
 		}]
 	},
 	resolve: {
