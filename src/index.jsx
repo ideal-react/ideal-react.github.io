@@ -8,7 +8,7 @@ import './index.css'
 let props = {
 	imageUrl: 'https://avatars0.githubusercontent.com/u/14071114',
 	title: 'ideal',
-	content: 'ideal is a organizations of perfect react component',
+	content: 'ideal is a organizations of perfect react component.',
 	link: 'https://github.com/ideal-react',
 	styles: speechBubbleStyles,
 }
