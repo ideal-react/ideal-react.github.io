@@ -20,7 +20,8 @@
   "homepage": "https://github.com/ideal-react/ideal-react.github.io#readme",
   "dependencies": {
     "react": "^0.13.3",
-    "speech-bubble": "git+https://git@github.com/ideal-react/speech-bubble"
+    "speech-bubble": "git+https://git@github.com/ideal-react/speech-bubble",
+    "auto-ellipsis": "git+https://git@github.com/ideal-react/auto-ellipsis"
   },
   "devDependencies": {
     "autoprefixer": "^6.0.1",

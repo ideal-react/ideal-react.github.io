@@ -11,7 +11,7 @@ module.exports = {
 			exclude: /node_modules/,
 		}, {
 			test: /\.css$/,
-			loader: 'style!css?modules&localIdentName=[hash:base64:5]!postcss',
+			loader: 'style!css?modules&localIdentName=[local]-[hash:base64:5]!postcss',
 		}]
 	},
 	resolve: {
