@@ -16,6 +16,8 @@ let props = {
 React.render(<SpeechBubble {...props} />,
 	document.getElementById('speech-bubble-wrap'))
 
+console.log(autoEllipsisStyles)
+
 props = {
 	content: 'auto-ellipsis is a React component for truncation when content overlength. It use DOM range to compute the ideal endPoint of content.',
 	styles: autoEllipsisStyles,
