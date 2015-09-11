@@ -5,3 +5,11 @@
 .image img {
 	border-radius: 10px;
 }
+
+.root-hidden {
+	composes: root;
+}
+
+.root-linked {
+	composes: root;
+}
